@@ -154,8 +154,6 @@ $override
 void mySetupTriggerPopup::valueChanged(int property, float value) {	
 	SetupTriggerPopup::valueChanged(property, value);
 
-	log::info("prop {} val {}", property, value);
-
 	if (property == 261) {
 		hideEasingArrowButtons();
 		hideEasingLabel();
