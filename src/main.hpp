@@ -1,10 +1,6 @@
 #pragma once
-#include "Geode/binding/CCMenuItemSpriteExtra.hpp"
-#include "Geode/cocos/cocoa/CCObject.h"
-#include "Geode/modify/Modify.hpp"
+
 #include <Geode/modify/SetupTriggerPopup.hpp>
-#include <Geode/modify/SetupCameraOffsetTrigger.hpp>
-#include <vector>
 
 using namespace geode::prelude;
 

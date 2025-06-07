@@ -1,16 +1,4 @@
-#include "Geode/binding/CCMenuItemSpriteExtra.hpp"
-#include "Geode/binding/EffectGameObject.hpp"
-#include "Geode/binding/SetupCameraOffsetTrigger.hpp"
-#include "Geode/binding/SetupEnterEffectPopup.hpp"
-#include "Geode/binding/SetupMGTrigger.hpp"
-#include "Geode/cocos/cocoa/CCGeometry.h"
-#include "Geode/cocos/cocoa/CCObject.h"
-#include "Geode/loader/Log.hpp"
-#include "Geode/modify/Modify.hpp"
-#include "Geode/platform/windows.hpp"
-#include "Geode/utils/cocos.hpp"
 #include <Geode/Geode.hpp>
-#include <unordered_set>
 
 using namespace geode::prelude;
 

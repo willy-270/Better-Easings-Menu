@@ -1,17 +1,6 @@
 #pragma once
 
-#include "GUI/CCControlExtension/CCScale9Sprite.h"
-#include "Geode/Enums.hpp"
-#include "Geode/binding/ButtonSprite.hpp"
-#include "Geode/binding/CCMenuItemSpriteExtra.hpp"
-#include "Geode/binding/SetupAreaMoveTriggerPopup.hpp"
-#include "Geode/binding/SetupEnterEffectPopup.hpp"
-#include "Geode/cocos/base_nodes/CCNode.h"
-#include "Geode/cocos/label_nodes/CCLabelBMFont.h"
-#include "Geode/cocos/menu_nodes/CCMenu.h"
 #include "main.hpp"
-#include <vector>
-
 
 class EasingsPopup : public geode::Popup<mySetupTriggerPopup*, bool> {
 protected:
