@@ -1,0 +1,1 @@
+If you would like to waste your money, I have a [Kofi](https://ko-fi.com/willyy27).

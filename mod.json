@@ -1,0 +1,27 @@
+{
+	"geode": "4.4.0",
+	"gd": {
+		"win": "2.2074",
+		"android": "2.2074",
+		"mac": "2.2074",
+		"ios": "2.2074"
+	},
+	"id": "willy.better-easings-menu",
+	"name": "Better Easings Menu",
+	"version": "v1.0.0",
+	"developer": "willy",
+	"description": "Adds a better way to select easings.",
+	"links": {
+		"source": "https://github.com/willy-270/Better-Easings-Menu"
+	},
+	"tags": [
+		"editor",
+		"enhancement",
+		"utility",
+		"interface",
+		"offline"
+	],
+	"issues": {
+		"info": "dm me @ willyy27 on discord"
+	}
+}
