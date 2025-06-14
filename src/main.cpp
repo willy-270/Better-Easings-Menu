@@ -123,9 +123,9 @@ void mySetupTriggerPopup::show() {
 $override
 void mySetupTriggerPopup::onPage(CCObject* sender) {
 	SetupTriggerPopup::onPage(sender);
-	hideEasingArrowButtons();
 
 	if (!m_fields->m_easingButton) return;
+	hideEasingArrowButtons();
 	m_fields->m_easingButton->setVisible(!m_fields->m_easingButton->isVisible());
 
 	if (m_easingLabel) m_easingLabel->setVisible(false);

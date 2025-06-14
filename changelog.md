@@ -1,3 +1,5 @@
+# v1.0.3
+- Fixed a crash
 # v1.0.2
 - MacOS/iOS support
 # v1.0.1
