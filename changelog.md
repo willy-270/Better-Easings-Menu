@@ -1,3 +1,5 @@
+# v1.0.4
+- Update to Geode v5.0.0
 # v1.0.3
 - Fixed a crash
 # v1.0.2

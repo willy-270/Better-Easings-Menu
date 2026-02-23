@@ -98,7 +98,7 @@ void mySetupTriggerPopup::show() {
 	auto localPos = m_buttonMenu->convertToNodeSpace(worldPos);
 	m_fields->m_easingButton->setPosition(localPos);
 
-	if (triggersWithTwoEasings.count(objID)) {\
+	if (triggersWithTwoEasings.count(objID)) {
 		easingID = getValue(248); 
 		std::string easingStr = "Select Easing";
 		if (easingID > 0) {

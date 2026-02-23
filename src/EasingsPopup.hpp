@@ -1,8 +1,9 @@
 #pragma once
 
 #include "main.hpp"
+#include <Geode/ui/Popup.hpp>
 
-class EasingsPopup : public geode::Popup<mySetupTriggerPopup*, bool> {
+class EasingsPopup : public geode::Popup {
 protected:
 	mySetupTriggerPopup* triggerPopup;
     bool isEasingTwo;
@@ -26,7 +27,20 @@ protected:
         {255, 150, 0},   // Orange
     };
 
-    bool setup(mySetupTriggerPopup* triggerPopup, bool isEasingTwo = false) override {
+    // pink edition
+    // const std::vector<ccColor3B> typeColors = {
+    //     {180, 180, 180}, 
+    //     {255, 207, 240},   
+    //     {255, 176, 231},   
+    //     {255, 144, 222}, 
+    //     {255, 113, 212}, 
+    //     {255, 81, 203}, 
+    //     {255, 50, 194},   
+    // };
+
+    bool init(mySetupTriggerPopup* triggerPopup, bool isEasingTwo = false) {
+        if (!Popup::init(popupWidth, popupHeight)) return false;
+
 		this->triggerPopup = triggerPopup;
         this->isEasingTwo = isEasingTwo;
 
@@ -151,7 +165,7 @@ protected:
 public:
     static EasingsPopup* create(mySetupTriggerPopup* triggerPopup, bool isEasingTwo) {
         auto ret = new EasingsPopup();
-        if (ret->initAnchored(ret->popupWidth, ret->popupHeight, triggerPopup, isEasingTwo)) {
+        if (ret->init(triggerPopup, isEasingTwo)) {
             ret->autorelease();
             return ret;
         }
